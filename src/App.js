@@ -7,18 +7,15 @@ class App extends Component {
     return (
       <div className='flipContainer'>
         <FlipPage orientation='horizontal' showSwipeHint='true' 
-          width='600' uncutPages='true' className='flipBook'>
+          width='672' uncutPages='true' className='flipBook'>
           <article>
-            <h1>My awesome first article</h1>
-            <p>My awesome first content</p>
+          <img src={'page0.png'} alt='page0'/>
           </article>
           <article>
-            <h1>My wonderful second article</h1>
-            <p>My wonderful second content</p>
+            <img src={'page1.png'} alt='page1'/>
           </article>
           <article>
-            <h1>My excellent third article</h1>
-            <p>My excellent third content</p>
+            <img src={'page2.png'} alt='page2'/>
           </article>
         </FlipPage>     
       </div>
